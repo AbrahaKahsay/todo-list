@@ -48,8 +48,6 @@ function deleteCheck(e){
     }
 }
 
-const item = e.target;
-const todo = item.parentElement;
 
 function filterTOdo(e) {
     const todos = todoList.childNodes;
