@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <h1>My to do's</h1>
+      </header>
+      <form>
+        <div>
+          <label id="title" for="name"> title</label>
+        </div>
+        <div>
+          <input
+            class="todo-input"
+            id="todo-input"
+            type="text"
+            placeholder="type here"
+          />
+        </div>
+        <button class="addBtn" id="addBtn" type="button">Add</button>
+        <div class="select">
+          <select name="todos" class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+          </select>
+        </div>
+      </form>
+      <div class="todo-conatiner">
+        <ul class="todo-list" id="todo-list">
+          <!-- <div class="todo">
+            <li></li>
+            <button>delete</button>
+            <button>checked</button>
+          </div>
+          <div class="todo">
+            <li></li>
+            <button>delete</button>
+            <button>checked</button>
+          </div>
+          <div class="todo">
+            <li></li>
+            <button>delete</button>
+            <button>checked</button>
+          </div> -->
+        </ul>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
